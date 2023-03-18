@@ -1,0 +1,16 @@
+{
+  "name": "my-qr-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "qr": "qrcode -o qr.png -w 1200 --lightcolor FFFFFF --darkcolor 314151 'https://www.sccamerata.org/concerts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.5.1"
+  }
+}
